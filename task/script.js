@@ -20,7 +20,7 @@ const randomIndex = Math.floor(Math.random() * remainingImages.length);
 const selected = remainingImages[randomIndex];
 
 
-document.getElementById("taskImage").src = "images/" + selected;
+document.getElementById("taskImage").src = "image/" + selected;
 
 
 remainingImages.splice(randomIndex, 1);
